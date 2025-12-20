@@ -49,15 +49,7 @@ I believe in **continuous learning**, clean code, and using technology creativel
 </p>
 
 ---
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=notlukas18&show_icons=true&theme=tokyonight" height="165"/>
  
-
----
-
 ✨ *Always learning. Always building.*
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4682B4&height=120&section=footer"/>
