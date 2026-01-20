@@ -5,7 +5,7 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=24&duration=4500&pause=600&color=000000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Javohir+Abduvahhobov;Software+Developer+%7C+AI+%26+ML+Enthusiast" />
   </a>
 </p>
-
+ 
 ---
 
 ## About
