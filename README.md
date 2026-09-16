@@ -1,105 +1,105 @@
-<!-- 🌊 Deep Navy Animated Header -->
+<div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0A1633&height=150&section=header&text=&fontSize=0" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg"/>
+  <img src="assets/header.svg" alt="Javohir Abduvahhobov"/>
+</picture>
 
-<h1 align="center">
-  Hey, I'm Javohir 👋
-</h1>
+<a href="mailto:javohirabduvahhobov@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-0A1633?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email"/>
+</a>
+<a href="https://github.com/">
+  <img src="https://img.shields.io/badge/GITHUB-0A1633?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub"/>
+</a>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=900&color=1F6FEB&center=true&vCenter=true&width=650&lines=Software+Developer;Let's+create;AI+%26+ML+Enthusiast;Always+building+something+new" />
-</p>
+</div>
 
-<p align="center">
-  I build applications, explore AI, and turn ideas into working software.
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-01.svg"/>
+  <img src="assets/section-01.svg" alt="01 — whoami"/>
+</picture>
 
-<p align="center">
-  <a href="mailto:javohirabduvahhobov@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0A1633?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/">
-    <img src="https://img.shields.io/badge/GitHub-0A1633?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about.svg"/>
+  <img src="assets/about.svg" alt="About Javohir"/>
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-02.svg"/>
+  <img src="assets/section-02.svg" alt="02 — system"/>
+</picture>
 
-## About Me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ecosystem.svg"/>
+  <img src="assets/ecosystem.svg" alt="Development ecosystem"/>
+</picture>
 
-I'm a software developer who enjoys taking an idea and turning it into something people can actually use.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-03.svg"/>
+  <img src="assets/section-03.svg" alt="03 — projects"/>
+</picture>
 
-My interests span **application development, Artificial Intelligence, and Machine Learning**. I work with **Flutter and Dart** for building applications, while also using **Python** to explore data, automation, and intelligent systems.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects.svg"/>
+  <img src="assets/projects.svg" alt="Projects"/>
+</picture>
 
-I enjoy the entire process of development — from figuring out how something should work, to designing the experience, writing the code, testing it, and improving it along the way.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-04.svg"/>
+  <img src="assets/section-04.svg" alt="04 — telemetry"/>
+</picture>
 
-For me, good software is more than code that works. It's about creating something that is **clear, useful, maintainable, and enjoyable to use**.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/telemetry.svg"/>
+  <img src="assets/telemetry.svg" alt="Development telemetry"/>
+</picture>
 
----
+<div align="center">
 
-## Tech Stack
+<img
+src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=00000000&title_color=0A1633&text_color=444444&icon_color=163D7A"
+width="48%"
+alt="GitHub statistics"
+/>
 
-### Languages
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=00000000&title_color=0A1633&text_color=444444"
+width="48%"
+alt="Top languages"
+/>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,dart,kotlin,javascript" />
-</p>
+<br><br>
 
-### Frameworks & Development
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=00000000&color=0A1633&line=163D7A&point=0A1633&area_color=0A1633&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"
+width="97%"
+alt="GitHub contribution activity"
+/>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=flutter,androidstudio" />
-</p>
+</div>
 
-### Tools & Technologies
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-05.svg"/>
+  <img src="assets/section-05.svg" alt="05 — the route"/>
+</picture>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,git,github,vscode,figma" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/journey.svg"/>
+  <img src="assets/journey.svg" alt="Development journey"/>
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-06.svg"/>
+  <img src="assets/section-06.svg" alt="06 — stack"/>
+</picture>
 
-## My Development Approach
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg"/>
+  <img src="assets/stack.svg" alt="Technical stack"/>
+</picture>
 
-```text
-        IDEA
-         │
-         ▼
-      EXPLORE
-         │
-         ▼
-       BUILD
-         │
-         ▼
-       TEST
-         │
-         ▼
-      IMPROVE
-         │
-         └──────────► Repeat
-```
-
-I like keeping development practical: understand the problem, build a solution, learn from what doesn't work, and keep improving it.
-
----
-
-## Let's Connect
-
-If you're working on something interesting, building an app, experimenting with AI, or simply want to talk about technology, feel free to reach out.
-
-<p align="center">
-  <a href="mailto:javohirabduvahhobov@gmail.com">
-    <img src="https://img.shields.io/badge/Let's%20Talk-0A1633?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=16&duration=4000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=500&lines=Build+something+useful.;Keep+learning.;Keep+building." />
-</p>
-
-<!-- 🌊 Deep Navy Animated Footer -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0A1633&height=130&section=footer&reversal=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg"/>
+  <img src="assets/footer.svg" alt="Current status"/>
+</picture>
 
