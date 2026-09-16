@@ -1,17 +1,17 @@
-<!-- Animated Header -->
+<!-- 🔥 Animated Fire Header -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=140&section=header&text=&fontSize=0" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff4500&height=150&section=header&text=&fontSize=0" />
 
 <h1 align="center">
   Hey, I'm Javohir 👋
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Software+Developer;Flutter+%26+Dart+Developer;AI+%26+ML+Enthusiast;Always+Building+Something+New" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=900&color=FF6A00&center=true&vCenter=true&width=650&lines=Software+Developer;Let's+create;AI+%26+ML+Enthusiast;Always+building+something+new" />
 </p>
 
 <p align="center">
-  I build applications, explore AI, and enjoy turning ideas into working software.
+  I build applications, explore AI, and turn ideas into working software.
 </p>
 
 <p align="center">
@@ -27,16 +27,27 @@
 
 ## About Me
 
-I'm a software developer who enjoys taking an idea and figuring out how to turn it into something people can actually use.
+I'm a software developer who enjoys taking an idea and turning it into something people can actually use.
 
-My work currently spans **application development, AI, and machine learning**. I particularly enjoy building with **Flutter and Dart**, experimenting with **Python**, and learning how intelligent systems can be integrated into real applications.
+My interests span **application development, Artificial Intelligence, and Machine Learning**. I work with **Flutter and Dart** for building applications, while also using **Python** to explore data, automation, and intelligent systems.
 
-I don't like building things just for the sake of adding another project to my GitHub. I prefer projects where I can learn something new, solve a real problem, or explore an idea that I'm genuinely curious about.
+I enjoy the entire process of development — from figuring out how something should work, to designing the experience, writing the code, testing it, and improving it along the way.
 
-I'm also continuously improving the less visible parts of development — **code structure, maintainability, Git workflows, UI/UX, and software design**.
+For me, good software is more than code that works. It's about creating something that is **clear, useful, maintainable, and enjoyable to use**.
 
 ---
 
+## Current Focus
+
+* 📱 Building applications with **Flutter & Dart**
+* 🤖 Exploring **Artificial Intelligence & Machine Learning**
+* 🐍 Developing with **Python**
+* 🧠 Learning practical approaches to AI-powered applications
+* 🎨 Improving **UI/UX and product design**
+* 🏗️ Writing cleaner and more maintainable software
+* 🔧 Improving Git & GitHub workflows
+
+---
 
 ## Tech Stack
 
@@ -66,10 +77,10 @@ I'm also continuously improving the less visible parts of development — **code
         IDEA
          │
          ▼
-     EXPLORE
+      EXPLORE
          │
          ▼
-      BUILD
+       BUILD
          │
          ▼
        TEST
@@ -80,51 +91,19 @@ I'm also continuously improving the less visible parts of development — **code
          └──────────► Repeat
 ```
 
-I like keeping things simple: understand the problem, build a solution, learn from what doesn't work, and keep improving it.
+I like keeping development practical: understand the problem, build a solution, learn from what doesn't work, and keep improving it.
 
 ---
 
 ## Currently Exploring
 
-* 🐦 Flutter & Dart application development
+* 🐦 Flutter & Dart
 * 🤖 Artificial Intelligence
 * 🧠 Machine Learning
-* 🐍 Python development
-* 🎨 Better UI/UX and product design
-* 🏗️ Software architecture and clean code
+* 🐍 Python
+* 🎨 UI/UX & product design
+* 🏗️ Software architecture
 * 🔧 Better development workflows
-
----
-
-## A Little More About Me
-
-```yaml
-name: Javohir Abduvahhobov
-
-role:
-  - Software Developer
-  - Flutter Developer
-  - AI & ML Enthusiast
-
-interests:
-  - Mobile Applications
-  - Artificial Intelligence
-  - Machine Learning
-  - Software Engineering
-  - UI/UX
-
-languages:
-  - Python
-  - Dart
-  - Kotlin
-  - JavaScript
-
-mindset:
-  - Keep learning
-  - Build real things
-  - Stay curious
-  - Improve continuously
-```
 
 ---
 
@@ -141,10 +120,10 @@ If you're working on something interesting, building an app, experimenting with 
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=16&duration=4000&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=Build+something+useful.;Keep+learning.;Keep+building." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=16&duration=4000&pause=1000&color=FF6A00&center=true&vCenter=true&width=500&lines=Build+something+useful.;Keep+learning.;Keep+building." />
 </p>
 
-<!-- Animated Footer -->
+<!-- 🔥 Animated Fire Footer -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff4500&height=130&section=footer&reversal=true" />
 
