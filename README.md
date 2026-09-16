@@ -1,13 +1,13 @@
-<!-- 🔥 Animated Fire Header -->
+<!-- 🌊 Deep Navy Animated Header -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff4500&height=150&section=header&text=&fontSize=0" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0A1633&height=150&section=header&text=&fontSize=0" />
 
 <h1 align="center">
   Hey, I'm Javohir 👋
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=900&color=FF6A00&center=true&vCenter=true&width=650&lines=Software+Developer;Let's+create;AI+%26+ML+Enthusiast;Always+building+something+new" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=900&color=1F6FEB&center=true&vCenter=true&width=650&lines=Software+Developer;Let's+create;AI+%26+ML+Enthusiast;Always+building+something+new" />
 </p>
 
 <p align="center">
@@ -16,10 +16,10 @@
 
 <p align="center">
   <a href="mailto:javohirabduvahhobov@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-0A1633?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-0A1633?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -95,35 +95,23 @@ I like keeping development practical: understand the problem, build a solution, 
 
 ---
 
-## Currently Exploring
-
-* 🐦 Flutter & Dart
-* 🤖 Artificial Intelligence
-* 🧠 Machine Learning
-* 🐍 Python
-* 🎨 UI/UX & product design
-* 🏗️ Software architecture
-* 🔧 Better development workflows
-
----
-
 ## Let's Connect
 
 If you're working on something interesting, building an app, experimenting with AI, or simply want to talk about technology, feel free to reach out.
 
 <p align="center">
   <a href="mailto:javohirabduvahhobov@gmail.com">
-    <img src="https://img.shields.io/badge/Let's%20Talk-0d1117?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Let's%20Talk-0A1633?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=16&duration=4000&pause=1000&color=FF6A00&center=true&vCenter=true&width=500&lines=Build+something+useful.;Keep+learning.;Keep+building." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=16&duration=4000&pause=1000&color=1F6FEB&center=true&vCenter=true&width=500&lines=Build+something+useful.;Keep+learning.;Keep+building." />
 </p>
 
-<!-- 🔥 Animated Fire Footer -->
+<!-- 🌊 Deep Navy Animated Footer -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff4500&height=130&section=footer&reversal=true" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0A1633&height=130&section=footer&reversal=true" />
 
