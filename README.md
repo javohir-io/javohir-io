@@ -7,15 +7,21 @@
 
 <a href="mailto:javohirabduvahhobov@gmail.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square"/>
-    <img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square" alt="Email"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-e6edf3?style=flat-square"/>
+    <img src="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square" alt="Email"/>
   </picture>
 </a>
 
 <a href="https://github.com/javohir-io">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GITHUB-0d1117?style=flat-square&logo=github&logoColor=ffffff"/>
-    <img src="https://img.shields.io/badge/GITHUB-ffffff?style=flat-square&logo=github&logoColor=000000" alt="GitHub"/>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://img.shields.io/badge/GITHUB-e6edf3?style=flat-square&logo=github&logoColor=0d1117"
+    />
+    <img
+      src="https://img.shields.io/badge/GITHUB-0d1117?style=flat-square&logo=github&logoColor=ffffff"
+      alt="GitHub"
+    />
   </picture>
 </a>
 
@@ -71,7 +77,11 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/github-stats.svg"/>
-  <img src="assets/github-stats.svg" width="97%" alt="GitHub statistics"/>
+  <img
+    src="assets/github-stats.svg"
+    width="97%"
+    alt="GitHub statistics"
+  />
 </picture>
 
 </div>
@@ -125,5 +135,3 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/>
   <img src="assets/footer.svg" alt="Current status"/>
 </picture>
-
-<!-- one responsive picture per visual; no duplicate light/dark rendering -->
