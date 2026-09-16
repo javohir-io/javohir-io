@@ -1,105 +1,93 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg"/>
   <img src="assets/header.svg" alt="Javohir Abduvahhobov"/>
 </picture>
 
 <a href="mailto:javohirabduvahhobov@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-0A1633?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square"/>
+    <img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square" alt="Email"/>
+  </picture>
 </a>
+
 <a href="https://github.com/">
-  <img src="https://img.shields.io/badge/GITHUB-0A1633?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GITHUB-0d1117?style=flat-square&logo=github&logoColor=ffffff"/>
+    <img src="https://img.shields.io/badge/GITHUB-ffffff?style=flat-square&logo=github&logoColor=000000" alt="GitHub"/>
+  </picture>
 </a>
 
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-01.svg"/>
-  <img src="assets/section-01.svg" alt="01 — whoami"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/>
+  <img src="assets/s01.svg" alt="01 — whoami"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about.svg"/>
-  <img src="assets/about.svg" alt="About Javohir"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/>
+  <img src="assets/whoami.svg" alt="About Javohir"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-02.svg"/>
-  <img src="assets/section-02.svg" alt="02 — system"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/>
+  <img src="assets/s02.svg" alt="02 — system map"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ecosystem.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/ecosystem.svg"/>
   <img src="assets/ecosystem.svg" alt="Development ecosystem"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-03.svg"/>
-  <img src="assets/section-03.svg" alt="03 — projects"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/>
+  <img src="assets/s03.svg" alt="03 — projects"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/projects.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/projects.svg"/>
   <img src="assets/projects.svg" alt="Projects"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-04.svg"/>
-  <img src="assets/section-04.svg" alt="04 — telemetry"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/telemetry.svg"/>
-  <img src="assets/telemetry.svg" alt="Development telemetry"/>
 </picture>
 
 <div align="center">
 
-<img
-src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=00000000&title_color=0A1633&text_color=444444&icon_color=163D7A"
-width="48%"
-alt="GitHub statistics"
-/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/github-stats.svg"/>
+  <img src="assets/github-stats.svg" width="97%" alt="GitHub statistics"/>
+</picture>
 
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=00000000&title_color=0A1633&text_color=444444"
-width="48%"
-alt="Top languages"
-/>
-
-<br><br>
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=00000000&color=0A1633&line=163D7A&point=0A1633&area_color=0A1633&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"
-width="97%"
-alt="GitHub contribution activity"
-/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area_color=ffffff&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=00000000&color=000000&line=000000&point=000000&area_color=000000&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity"/>
+</picture>
 
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-05.svg"/>
-  <img src="assets/section-05.svg" alt="05 — the route"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s04.svg"/>
+  <img src="assets/s04.svg" alt="04 — stack"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/journey.svg"/>
-  <img src="assets/journey.svg" alt="Development journey"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-06.svg"/>
-  <img src="assets/section-06.svg" alt="06 — stack"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/>
   <img src="assets/stack.svg" alt="Technical stack"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s05.svg"/>
+  <img src="assets/s05.svg" alt="05 — philosophy"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/philosophy.svg"/>
+  <img src="assets/philosophy.svg" alt="Development philosophy"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/>
   <img src="assets/footer.svg" alt="Current status"/>
 </picture>
 
+<!-- one responsive picture per visual; no duplicate light/dark rendering -->
