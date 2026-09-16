@@ -91,4 +91,3 @@
 </picture>
 
 <!-- one responsive picture per visual; no duplicate light/dark rendering -->
-
