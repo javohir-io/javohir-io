@@ -1,103 +1,185 @@
-<!-- Header -->
+<!-- Animated Header -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2&section=header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=140&section=header&text=&fontSize=0" />
 
-<h1 align="center">Hey, I'm Javohir 👋</h1>
+<h1 align="center">
+  Hey, I'm Javohir 👋
+</h1>
 
 <p align="center">
-  <strong>Software Developer · AI & ML Enthusiast</strong>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Software+Developer;Flutter+%26+Dart+Developer;AI+%26+ML+Enthusiast;Always+Building+Something+New" />
 </p>
 
 <p align="center">
-  <a href="mailto:javohirabduvahhobov@gmail.com">Email</a>
-  ·
-  <a href="https://github.com/">GitHub</a>
-  ·
-  <span>Open to opportunities</span>
+  I build applications, explore AI, and enjoy turning ideas into working software.
 </p>
 
-<br>
+<p align="center">
+  <a href="mailto:javohirabduvahhobov@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ## About Me
 
-I'm a software developer who enjoys **building things that are useful, understandable, and built to last**.
+I'm a software developer who enjoys taking an idea and figuring out how to turn it into something people can actually use.
 
-I started with an interest in how software works and gradually became more interested in what can be built with it — from everyday applications to systems powered by data, automation, and machine learning.
+My work currently spans **application development, AI, and machine learning**. I particularly enjoy building with **Flutter and Dart**, experimenting with **Python**, and learning how intelligent systems can be integrated into real applications.
 
-These days, I'm particularly interested in **Python, Artificial Intelligence, and Machine Learning**, while continuing to strengthen my foundations in software engineering.
+I don't like building things just for the sake of adding another project to my GitHub. I prefer projects where I can learn something new, solve a real problem, or explore an idea that I'm genuinely curious about.
 
-I care about writing code that isn't just functional, but also **easy to read, maintain, and improve**. I'm always experimenting with new ideas, learning from the process, and trying to become a better developer with every project.
-
----
-
-## What I'm Working On
-
-```text
-🤖  Artificial Intelligence & Machine Learning
-🐍  Python development and data-driven applications
-🧩  Writing cleaner and more maintainable software
-📱  Exploring application development
-🔧  Improving development workflows & Git practices
-📚  Learning new technologies through real projects
-```
+I'm also continuously improving the less visible parts of development — **code structure, maintainability, Git workflows, UI/UX, and software design**.
 
 ---
 
-## Tech I Work With
+## What I'm Building
 
-<p align="left">
+<table>
+<tr>
+<td width="50%">
 
-**Languages**
+### 📱 App Development
 
-<img src="https://skillicons.dev/icons?i=python,kotlin,js" />
+Building cross-platform applications with:
 
-<br><br>
+* Flutter
+* Dart
+* Android
+* Modern UI/UX
+* API integration
 
-**Tools & Technologies**
+</td>
 
-<img src="https://skillicons.dev/icons?i=mongodb,androidstudio,vscode,figma,git,github" />
+<td width="50%">
 
+### 🤖 AI & Machine Learning
+
+Exploring:
+
+* Python
+* Machine Learning
+* Data-driven applications
+* AI-powered features
+* Practical automation
+
+</td>
+</tr>
+</table>
+
+---
+
+## Tech Stack
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,dart,kotlin,javascript" />
+</p>
+
+### Frameworks & Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,androidstudio" />
+</p>
+
+### Tools & Technologies
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,git,github,vscode,figma" />
 </p>
 
 ---
 
-## How I Like to Build
+## My Development Approach
 
-I try to keep my development process simple:
+```text
+        IDEA
+         │
+         ▼
+     EXPLORE
+         │
+         ▼
+      BUILD
+         │
+         ▼
+       TEST
+         │
+         ▼
+      IMPROVE
+         │
+         └──────────► Repeat
+```
 
-**Understand → Build → Test → Improve**
-
-I prefer practical solutions over unnecessary complexity and believe that good software comes from a combination of **strong fundamentals, thoughtful design, and constant iteration**.
+I like keeping things simple: understand the problem, build a solution, learn from what doesn't work, and keep improving it.
 
 ---
 
-## Currently Learning
+## Currently Exploring
 
-* Machine Learning concepts and practical implementation
-* AI-powered applications
-* Better software architecture and design
-* More effective Git & GitHub workflows
-* Building projects that solve real problems
+* 🐦 Flutter & Dart application development
+* 🤖 Artificial Intelligence
+* 🧠 Machine Learning
+* 🐍 Python development
+* 🎨 Better UI/UX and product design
+* 🏗️ Software architecture and clean code
+* 🔧 Better development workflows
+
+---
+
+## A Little More About Me
+
+```yaml
+name: Javohir Abduvahhobov
+
+role:
+  - Software Developer
+  - Flutter Developer
+  - AI & ML Enthusiast
+
+interests:
+  - Mobile Applications
+  - Artificial Intelligence
+  - Machine Learning
+  - Software Engineering
+  - UI/UX
+
+languages:
+  - Python
+  - Dart
+  - Kotlin
+  - JavaScript
+
+mindset:
+  - Keep learning
+  - Build real things
+  - Stay curious
+  - Improve continuously
+```
 
 ---
 
 ## Let's Connect
 
-I'm always interested in meeting other developers, learning from different perspectives, and working on interesting ideas.
-
-📩 **Email:** [javohirabduvahhobov@gmail.com](mailto:javohirabduvahhobov@gmail.com)
-
-Whether it's a collaboration, internship, freelance project, or simply a conversation about technology — feel free to reach out.
-
----
+If you're working on something interesting, building an app, experimenting with AI, or simply want to talk about technology, feel free to reach out.
 
 <p align="center">
-  <i>Building, learning, and improving — one project at a time.</i>
+  <a href="mailto:javohirabduvahhobov@gmail.com">
+    <img src="https://img.shields.io/badge/Let's%20Talk-0d1117?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 <br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2&section=footer" />
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=16&duration=4000&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=Build+something+useful.;Keep+learning.;Keep+building." />
+</p>
+
+<!-- Animated Footer -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=120&section=footer" />
 
