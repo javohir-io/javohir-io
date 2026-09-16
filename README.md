@@ -37,41 +37,6 @@ I'm also continuously improving the less visible parts of development — **code
 
 ---
 
-## What I'm Building
-
-<table>
-<tr>
-<td width="50%">
-
-### 📱 App Development
-
-Building cross-platform applications with:
-
-* Flutter
-* Dart
-* Android
-* Modern UI/UX
-* API integration
-
-</td>
-
-<td width="50%">
-
-### 🤖 AI & Machine Learning
-
-Exploring:
-
-* Python
-* Machine Learning
-* Data-driven applications
-* AI-powered features
-* Practical automation
-
-</td>
-</tr>
-</table>
-
----
 
 ## Tech Stack
 
