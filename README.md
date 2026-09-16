@@ -51,17 +51,19 @@
   <img src="assets/projects.svg" alt="Projects"/>
 </picture>
 
+<br>
+
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/github-stats.svg"/>
-  <img src="assets/github-stats.svg" width="97%" alt="GitHub statistics"/>
-</picture>
+<h3>CONTRIBUTION TELEMETRY</h3>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=javohir-io&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area_color=ffffff&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=javohir-io&bg_color=00000000&color=000000&line=000000&point=000000&area_color=000000&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity"/>
-</picture>
+<p>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=javohir-io&bg_color=ffffff00&color=000000&line=000000&point=000000&area_color=000000&area=true&hide_border=true&radius=0&custom_title="
+    width="97%"
+    alt="Javohir's GitHub contribution activity"
+  />
+</p>
 
 </div>
 
@@ -91,3 +93,4 @@
 </picture>
 
 <!-- one responsive picture per visual; no duplicate light/dark rendering -->
+
