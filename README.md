@@ -37,18 +37,6 @@ For me, good software is more than code that works. It's about creating somethin
 
 ---
 
-## Current Focus
-
-* 📱 Building applications with **Flutter & Dart**
-* 🤖 Exploring **Artificial Intelligence & Machine Learning**
-* 🐍 Developing with **Python**
-* 🧠 Learning practical approaches to AI-powered applications
-* 🎨 Improving **UI/UX and product design**
-* 🏗️ Writing cleaner and more maintainable software
-* 🔧 Improving Git & GitHub workflows
-
----
-
 ## Tech Stack
 
 ### Languages
