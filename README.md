@@ -1,55 +1,103 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=110&section=header" />
+<!-- Header -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2&section=header" />
+
+<h1 align="center">Hey, I'm Javohir 👋</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=24&duration=4500&pause=600&color=000000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Javohir+Abduvahhobov;Software+Developer+%7C+AI+%26+ML+Enthusiast" />
-  </a>
+  <strong>Software Developer · AI & ML Enthusiast</strong>
 </p>
- 
----
-
-## About
-
-I’m a **Software Developer** focused on building **clean, practical, and data-driven applications**.  
-My main interests lie in **Artificial Intelligence**, **Machine Learning**, and **software engineering best practices**.
-
-I value **clarity, maintainability, and continuous improvement**, and I enjoy turning complex ideas into simple, usable solutions.
-
----
-
-## Current Focus
-
-- AI & Machine Learning using **Python**
-- Writing **clean, structured, and maintainable code**
-- Improving **GitHub workflows** and version control practices
-- Exploring modern tools and technologies
-
----
-
-## Contact
-
-- 📧 **Email:** [javohirabduvahhobov@gmail.com](mailto:javohirabduvahhobov@gmail.com)
-- 💼 Open to **collaborations, internships, and freelance work**
-
----
-
-## Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Android_Studio-000000?style=for-the-badge&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white"/>
+  <a href="mailto:javohirabduvahhobov@gmail.com">Email</a>
+  ·
+  <a href="https://github.com/">GitHub</a>
+  ·
+  <span>Open to opportunities</span>
+</p>
+
+<br>
+
+---
+
+## About Me
+
+I'm a software developer who enjoys **building things that are useful, understandable, and built to last**.
+
+I started with an interest in how software works and gradually became more interested in what can be built with it — from everyday applications to systems powered by data, automation, and machine learning.
+
+These days, I'm particularly interested in **Python, Artificial Intelligence, and Machine Learning**, while continuing to strengthen my foundations in software engineering.
+
+I care about writing code that isn't just functional, but also **easy to read, maintain, and improve**. I'm always experimenting with new ideas, learning from the process, and trying to become a better developer with every project.
+
+---
+
+## What I'm Working On
+
+```text
+🤖  Artificial Intelligence & Machine Learning
+🐍  Python development and data-driven applications
+🧩  Writing cleaner and more maintainable software
+📱  Exploring application development
+🔧  Improving development workflows & Git practices
+📚  Learning new technologies through real projects
+```
+
+---
+
+## Tech I Work With
+
+<p align="left">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,kotlin,js" />
+
+<br><br>
+
+**Tools & Technologies**
+
+<img src="https://skillicons.dev/icons?i=mongodb,androidstudio,vscode,figma,git,github" />
+
 </p>
 
 ---
 
+## How I Like to Build
+
+I try to keep my development process simple:
+
+**Understand → Build → Test → Improve**
+
+I prefer practical solutions over unnecessary complexity and believe that good software comes from a combination of **strong fundamentals, thoughtful design, and constant iteration**.
+
+---
+
+## Currently Learning
+
+* Machine Learning concepts and practical implementation
+* AI-powered applications
+* Better software architecture and design
+* More effective Git & GitHub workflows
+* Building projects that solve real problems
+
+---
+
+## Let's Connect
+
+I'm always interested in meeting other developers, learning from different perspectives, and working on interesting ideas.
+
+📩 **Email:** [javohirabduvahhobov@gmail.com](mailto:javohirabduvahhobov@gmail.com)
+
+Whether it's a collaboration, internship, freelance project, or simply a conversation about technology — feel free to reach out.
+
+---
+
 <p align="center">
-  <em>Always learning. Always building.</em>
+  <i>Building, learning, and improving — one project at a time.</i>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=110&section=footer" />
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2&section=footer" />
 
