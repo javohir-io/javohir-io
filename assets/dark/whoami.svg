@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+
+<rect width="1200" height="230" fill="#0d1117"/>
+<text x="30" y="42" font-size="22" font-weight="700" fill="#e6edf3">Building software with curiosity and purpose.</text>
+<text x="30" y="82" font-size="16" fill="#8b949e">I enjoy turning ideas into practical applications and learning through the process.</text>
+<text x="30" y="112" font-size="16" fill="#8b949e">My interests sit at the intersection of application development, AI, and machine learning.</text>
+<text x="30" y="158" font-size="14" font-weight="700" letter-spacing="2" fill="#e6edf3">CURRENTLY WORKING WITH</text>
+<text x="30" y="192" font-size="16" fill="#8b949e">Flutter · Dart · Python · Kotlin · JavaScript · MongoDB</text>
+</g>
+
+<rect width="1200" height="230" fill="#e6edf3"/>
+<text x="30" y="42" font-size="22" font-weight="700" fill="#e6edf3">Building software with curiosity and purpose.</text>
+<text x="30" y="82" font-size="16" fill="#8b949e">I enjoy turning ideas into practical applications and learning through the process.</text>
+<text x="30" y="112" font-size="16" fill="#8b949e">My interests sit at the intersection of application development, AI, and machine learning.</text>
+<text x="30" y="158" font-size="14" font-weight="700" letter-spacing="2" fill="#e6edf3">CURRENTLY WORKING WITH</text>
+<text x="30" y="192" font-size="16" fill="#8b949e">Flutter · Dart · Python · Kotlin · JavaScript · MongoDB</text>
+</g>
+</svg>

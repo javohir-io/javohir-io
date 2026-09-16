@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160">
+
+<rect width="1200" height="160" fill="#0d1117"/>
+<path d="M0 125 C180 65 330 175 510 110 S850 55 1200 120" fill="none" stroke="#30363d" stroke-width="1"/>
+<text x="600" y="70" text-anchor="middle" font-size="20" font-weight="700" fill="#e6edf3">LET'S CREATE.</text>
+<text x="600" y="102" text-anchor="middle" font-size="13" letter-spacing="3" fill="#8b949e">JAVOHIR ABDUVAHHOBOV · SOFTWARE DEVELOPER</text>
+</g>
+
+<rect width="1200" height="160" fill="#e6edf3"/>
+<path d="M0 125 C180 65 330 175 510 110 S850 55 1200 120" fill="none" stroke="#30363d" stroke-width="1"/>
+<text x="600" y="70" text-anchor="middle" font-size="20" font-weight="700" fill="#e6edf3">LET'S CREATE.</text>
+<text x="600" y="102" text-anchor="middle" font-size="13" letter-spacing="3" fill="#8b949e">JAVOHIR ABDUVAHHOBOV · SOFTWARE DEVELOPER</text>
+</g>
+</svg>
