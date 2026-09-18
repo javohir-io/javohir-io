@@ -1,0 +1,39 @@
+<svg width="900" height="258" viewBox="0 0 900 258" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs>
+<pattern id="dotsw" width="15" height="15" patternUnits="userSpaceOnUse">
+<circle cx="1.4" cy="1.4" r="1.1" fill="#eae6fb"/>
+</pattern>
+</defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,monospace; }
+.sans { font-family: 'Space Grotesk','Segoe UI',Inter,sans-serif; }
+.ink { fill:#141225; }
+.muted { fill:#5b5770; }
+.dim { fill:#8b87a3; }
+.accent { fill:#6851ff; }
+.accent2 { fill:#0f9d78; }
+.line { stroke:#e2defa; }
+</style>
+<rect x="4" y="4" width="892" height="250" rx="18" fill="#faf9ff" stroke="#e2defa" stroke-width="1.2"/>
+<rect x="4" y="4" width="892" height="250" rx="18" fill="url(#dotsw)" opacity="0.55"/>
+<path d="M 13 26 L 13 13 L 26 13" fill="none" stroke="#6851ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<path d="M 887 26 L 887 13 L 874 13" fill="none" stroke="#6851ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<path d="M 13 232 L 13 245 L 26 245" fill="none" stroke="#6851ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<path d="M 887 232 L 887 245 L 874 245" fill="none" stroke="#6851ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<polygon points="70.7,39.5 70.7,56.5 56.0,65.0 41.3,56.5 41.3,39.5 56.0,31.0" fill="#faf9ff" stroke="#6851ff" stroke-width="1.6"/><text x="56" y="52.5" font-size="12.5" text-anchor="middle" class="accent sans" font-weight="700">01</text>
+<text x="84" y="54" font-size="19" class="ink sans" font-weight="700">whoami</text>
+<text x="40" y="92" font-size="13.5" class="ink">Software engineer who builds products end-to-end — from the Flutter</text>
+<text x="40" y="114" font-size="13.5" class="ink">screen a user taps, through the API that authenticates them, down to</text>
+<text x="40" y="136" font-size="13.5" class="ink">the PostgreSQL schema underneath. Computer science graduate with a</text>
+<text x="40" y="158" font-size="13.5" class="ink">background in Machine Learning, Deep Learning &amp; Data Mining, now</text>
+<text x="40" y="180" font-size="13.5" class="ink">focused on shipping full-stack apps, APIs and the odd game.</text>
+<line x1="40" y1="206" x2="860" y2="206" class="line" stroke-width="1"/>
+<text x="40" y="228" font-size="12.5" class="accent">role:</text>
+<text x="85.8125" y="228" font-size="12.5" class="muted">full-stack &amp; mobile developer</text>
+<text x="335.125" y="228" font-size="12.5" class="accent">focus:</text>
+<text x="388.5" y="228" font-size="12.5" class="muted">flutter . node.js . react</text>
+<text x="40" y="252" font-size="12.5" class="accent">background:</text>
+<text x="131.1875" y="252" font-size="12.5" class="muted">ml / deep learning / data mining</text>
+<text x="403.1875" y="252" font-size="12.5" class="accent">based:</text>
+<text x="456.5625" y="252" font-size="12.5" class="muted">tashkent, uz</text>
+</svg>

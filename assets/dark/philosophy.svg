@@ -1,0 +1,27 @@
+<svg width="900" height="156" viewBox="0 0 900 156" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs>
+<pattern id="dotsp" width="15" height="15" patternUnits="userSpaceOnUse">
+<circle cx="1.4" cy="1.4" r="1.1" fill="#1c1832"/>
+</pattern>
+</defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,monospace; }
+.sans { font-family: 'Space Grotesk','Segoe UI',Inter,sans-serif; }
+.ink { fill:#eeeafc; }
+.muted { fill:#a8a2c6; }
+.dim { fill:#6f698c; }
+.accent { fill:#a996ff; }
+.accent2 { fill:#3ddba8; }
+.line { stroke:#2a2645; }
+</style>
+<rect x="4" y="4" width="892" height="148" rx="18" fill="#100e1e" stroke="#2a2645" stroke-width="1.2"/>
+<rect x="4" y="4" width="892" height="148" rx="18" fill="url(#dotsp)" opacity="0.55"/>
+<path d="M 13 26 L 13 13 L 26 13" fill="none" stroke="#a996ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<path d="M 887 26 L 887 13 L 874 13" fill="none" stroke="#a996ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<path d="M 13 130 L 13 143 L 26 143" fill="none" stroke="#a996ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<path d="M 887 130 L 887 143 L 874 143" fill="none" stroke="#a996ff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+<text x="40" y="66" font-size="46" class="accent sans" font-weight="700" opacity="0.45">“</text>
+<text x="78" y="66" font-size="19" class="ink sans" font-weight="700">Ship the full stack, not just the feature.</text>
+<text x="78" y="94" font-size="12.5" class="muted">Prototype fast, refactor with intent — and treat every layer,</text>
+<text x="78" y="114" font-size="12.5" class="muted">from the schema to the screen, as worth getting right.</text>
+</svg>
