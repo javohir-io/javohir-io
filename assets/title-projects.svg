@@ -1,0 +1,83 @@
+<svg width="440" height="90" viewBox="0 0 440 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ul" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7f5af0"/>
+      <stop offset="100%" stop-color="#ff2fd0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+    <text x="55.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#00f5ff">
+      W
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="1.8s" begin="0.0s" repeatCount="indefinite"/>
+    </text>
+    <text x="85.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#7f5af0">
+      H
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.0s" begin="0.06s" repeatCount="indefinite"/>
+    </text>
+    <text x="115.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#ff2fd0">
+      A
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.2s" begin="0.12s" repeatCount="indefinite"/>
+    </text>
+    <text x="145.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#ffd60a">
+      T
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.4s" begin="0.18s" repeatCount="indefinite"/>
+    </text>
+    <text x="205.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#00f5ff">
+      I
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.0s" begin="0.3s" repeatCount="indefinite"/>
+    </text>
+    <text x="265.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#ff2fd0">
+      B
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.4s" begin="0.42s" repeatCount="indefinite"/>
+    </text>
+    <text x="295.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#ffd60a">
+      U
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="1.8s" begin="0.48s" repeatCount="indefinite"/>
+    </text>
+    <text x="325.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#39ff88">
+      I
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.0s" begin="0.54s" repeatCount="indefinite"/>
+    </text>
+    <text x="355.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#00f5ff">
+      L
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.2s" begin="0.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="385.0" y="56" text-anchor="middle" font-family="Consolas, monospace"
+          font-weight="800" font-size="40" fill="#7f5af0">
+      D
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -10; 0 0; 0 6; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="2.4s" begin="0.66s" repeatCount="indefinite"/>
+    </text>
+  <rect x="20" y="72" width="400" height="3" fill="url(#ul)">
+    <animate attributeName="width" values="0;400;400" keyTimes="0;0.6;1" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
