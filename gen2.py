@@ -34,7 +34,7 @@ DARK = dict(
     line="#242424", line2="#161616", panel="#0a0a0a", grid="#131313",
 )
 
-ALIEN = list("⌬⏃⏄⎈⏚⌀⍜⍟⏛⌇⏢⎊⍚⏦⌐⏰◬◭◮⟁⟒⟟⟠⟡⧫◈◉⌭⌮⎔⏣⟴⟵⊘⊙⊚")
+ALIEN = list("⌬⏃⏄⎈⏚⌀⍜⍟⏛⌇⏢⎊⍚⏦⌐𓇻◬◭◮⟁⟒⟟⟠⟡⧫◈◉⌭⌮⎔⏣⟴⟵⊘⊙⊚")
 
 def esc(s):
     return html.escape(str(s), quote=True)
