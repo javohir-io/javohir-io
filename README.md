@@ -17,10 +17,7 @@
     <img src="https://img.shields.io/badge/GITHUB-d21f2c?style=flat-square&logo=github&logoColor=ffffff&labelColor=0a0a0a" alt="GitHub">
   </picture>
 </a>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=javohir-io&label=PROFILE+VIEWS&color=ff2b39&style=flat-square&base=0A0A0A">
-  <img src="https://komarev.com/ghpvc/?username=javohir-io&label=PROFILE+VIEWS&color=d21f2c&style=flat-square" alt="profile views">
-</picture>
+<img src="https://komarev.com/ghpvc/?username=javohir-io&label=PROFILE+VIEWS&color=d21f2c&style=flat-square" alt="profile views">
 
 </div>
 
