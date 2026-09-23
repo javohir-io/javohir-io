@@ -1,0 +1,44 @@
+<svg width="960" height="34" viewBox="0 0 960 34" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs>
+<radialGradient id="glowd" cx="50%" cy="40%" r="68%">
+<stop offset="0%" stop-color="#a3701a" stop-opacity="0.10"/>
+<stop offset="55%" stop-color="#a3701a" stop-opacity="0.04"/>
+<stop offset="100%" stop-color="#a3701a" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="sweepd" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#c98a1e" stop-opacity="0"/>
+<stop offset="50%" stop-color="#c98a1e" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#c98a1e" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="goldbard" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#d8c191"/>
+<stop offset="55%" stop-color="#a3701a"/>
+<stop offset="100%" stop-color="#c98a1e"/>
+</linearGradient>
+<linearGradient id="cyanbard" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#bfe3e6"/>
+<stop offset="100%" stop-color="#0d7c8f"/>
+</linearGradient>
+<radialGradient id="dotd" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#c98a1e" stop-opacity="0.95"/>
+<stop offset="100%" stop-color="#c98a1e" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="raingd" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#b8860b" stop-opacity="0"/>
+<stop offset="72%" stop-color="#b8860b" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#7a4e08" stop-opacity="1"/>
+</linearGradient>
+<radialGradient id="coind" cx="35%" cy="30%" r="75%">
+<stop offset="0%" stop-color="#c98a1e"/>
+<stop offset="55%" stop-color="#a3701a"/>
+<stop offset="100%" stop-color="#d8c191"/>
+</radialGradient>
+<pattern id="hexd" width="26" height="30" patternUnits="userSpaceOnUse" patternTransform="scale(0.9)">
+<path d="M13 0 L26 7.5 L26 22.5 L13 30 L0 22.5 L0 7.5 Z" fill="none" stroke="#a3701a" stroke-width="0.6"/>
+</pattern>
+<filter id="graind" x="0" y="0" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+<feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 0.82  0 0 0 0 0.4  0.045 0.045 0.045 0 0"/>
+</filter>
+</defs>
+<rect width="960" height="34" fill="#f7f3e8"/><line x1="0" y1="17.0" x2="960" y2="17.0" stroke="#ddd3b8" stroke-width="1"/><line x1="-200" y1="17.0" x2="0" y2="17.0" stroke="url(#sweepd)" stroke-width="1.6"><animate attributeName="x1" values="-200;960" dur="4s" repeatCount="indefinite"/><animate attributeName="x2" values="0;1160" dur="4s" repeatCount="indefinite"/></line><circle cx="480.0" cy="17.0" r="2.4" fill="#c98a1e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="192.0" cy="17.0" r="1.6" fill="#a3701a" opacity="0.5"><animate attributeName="cy" values="13.0;21.0;13.0" dur="3.4s" repeatCount="indefinite"/></circle><circle cx="768.0" cy="17.0" r="1.6" fill="#a3701a" opacity="0.5"><animate attributeName="cy" values="13.0;21.0;13.0" dur="4.5s" repeatCount="indefinite"/></circle></svg>
