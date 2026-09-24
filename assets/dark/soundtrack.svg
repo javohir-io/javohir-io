@@ -1,0 +1,89 @@
+<svg width="1000" height="130" viewBox="0 0 1000 130" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="soundtrack">
+  <style>
+    @keyframes fallsnd{
+      0%{transform:translateY(-115px);opacity:0}
+      8%{opacity:1} 92%{opacity:1}
+      100%{transform:translateY(170px);opacity:0}
+    }
+    .rainsnd{animation-name:fallsnd;animation-timing-function:linear;animation-iteration-count:infinite}
+    @keyframes dcsndtitle0{0%{opacity:0} 0.000%{opacity:0} 0.275%{opacity:1} 0.275%{opacity:1} 0.575%{opacity:0} 100%{opacity:0}}
+@keyframes dcsndtitle1{0%{opacity:0} 0.275%{opacity:0} 0.550%{opacity:1} 0.550%{opacity:1} 0.850%{opacity:0} 100%{opacity:0}}
+@keyframes dcsndtitle2{0%{opacity:0} 0.550%{opacity:0} 0.850%{opacity:1} 97.000%{opacity:1} 97.300%{opacity:0} 100%{opacity:0}}
+    @keyframes eqsnd0{from{transform:scaleY(0.35)}to{transform:scaleY(1)}}
+@keyframes eqsnd1{from{transform:scaleY(0.35)}to{transform:scaleY(1)}}
+@keyframes eqsnd2{from{transform:scaleY(0.35)}to{transform:scaleY(1)}}
+@keyframes eqsnd3{from{transform:scaleY(0.35)}to{transform:scaleY(1)}}
+@keyframes eqsnd4{from{transform:scaleY(0.35)}to{transform:scaleY(1)}}
+@keyframes eqsnd5{from{transform:scaleY(0.35)}to{transform:scaleY(1)}}
+    @keyframes spinsnd{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+  </style>
+  <defs>
+    <clipPath id="clipsnd"><rect x="0" y="0" width="1000" height="130" rx="16" ry="16"/></clipPath>
+    <linearGradient id="bggsnd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <radialGradient id="glowsnd" cx="50%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softglowsnd" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g clip-path="url(#clipsnd)">
+    <rect x="0" y="0" width="1000" height="130" fill="url(#bggsnd)"/>
+    <rect x="0" y="0" width="1000" height="130" fill="url(#glowsnd)"/>
+  </g>
+  <rect x="1" y="1" width="998" height="128" rx="16" ry="16" fill="none" stroke="#1c2530" stroke-width="1"/>
+  
+  <g stroke="#22d3ee" stroke-width="1.5" fill="none" opacity="0.85">
+    <path d="M1 22 V1 H22"/>
+    <path d="M978 1 H999 V22"/>
+    <path d="M999 108 V129 H978"/>
+    <path d="M22 129 H1 V108"/>
+  </g>
+  <g clip-path="url(#clipsnd)"><g opacity="0.14"><text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:4.06s;animation-delay:-2.38s"><tspan x="2.8" dy="0" fill="#eafff2" opacity="1.00">+</tspan><tspan x="2.8" dy="15" fill="#39ff8f" opacity="0.45">/</tspan><tspan x="2.8" dy="15" fill="#39ff8f" opacity="0.39">1</tspan><tspan x="2.8" dy="15" fill="#39ff8f" opacity="0.33">▒</tspan><tspan x="2.8" dy="15" fill="#39ff8f" opacity="0.28">W</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:7.47s;animation-delay:-5.69s"><tspan x="43.3" dy="0" fill="#eafff2" opacity="1.00">&amp;</tspan><tspan x="43.3" dy="15" fill="#39ff8f" opacity="0.45">A</tspan><tspan x="43.3" dy="15" fill="#39ff8f" opacity="0.39">I</tspan><tspan x="43.3" dy="15" fill="#39ff8f" opacity="0.33">Y</tspan><tspan x="43.3" dy="15" fill="#39ff8f" opacity="0.28">B</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:5.32s;animation-delay:-6.94s"><tspan x="89.6" dy="0" fill="#eafff2" opacity="1.00">&lt;</tspan><tspan x="89.6" dy="15" fill="#39ff8f" opacity="0.45">B</tspan><tspan x="89.6" dy="15" fill="#39ff8f" opacity="0.39">]</tspan><tspan x="89.6" dy="15" fill="#39ff8f" opacity="0.33">&gt;</tspan><tspan x="89.6" dy="15" fill="#39ff8f" opacity="0.28">[</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:6.56s;animation-delay:-6.92s"><tspan x="138.9" dy="0" fill="#eafff2" opacity="1.00">I</tspan><tspan x="138.9" dy="15" fill="#39ff8f" opacity="0.45">F</tspan><tspan x="138.9" dy="15" fill="#39ff8f" opacity="0.39">K</tspan><tspan x="138.9" dy="15" fill="#39ff8f" opacity="0.33">#</tspan><tspan x="138.9" dy="15" fill="#39ff8f" opacity="0.28">I</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:5.8s;animation-delay:-3.87s"><tspan x="182.2" dy="0" fill="#eafff2" opacity="1.00">X</tspan><tspan x="182.2" dy="15" fill="#39ff8f" opacity="0.45">U</tspan><tspan x="182.2" dy="15" fill="#39ff8f" opacity="0.39">H</tspan><tspan x="182.2" dy="15" fill="#39ff8f" opacity="0.33">E</tspan><tspan x="182.2" dy="15" fill="#39ff8f" opacity="0.28">░</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:8.73s;animation-delay:-8.83s"><tspan x="227.2" dy="0" fill="#eafff2" opacity="1.00">@</tspan><tspan x="227.2" dy="15" fill="#39ff8f" opacity="0.45">N</tspan><tspan x="227.2" dy="15" fill="#39ff8f" opacity="0.39">-</tspan><tspan x="227.2" dy="15" fill="#39ff8f" opacity="0.33">S</tspan><tspan x="227.2" dy="15" fill="#39ff8f" opacity="0.28">X</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:4.09s;animation-delay:-4.23s"><tspan x="274.8" dy="0" fill="#eafff2" opacity="1.00">*</tspan><tspan x="274.8" dy="15" fill="#39ff8f" opacity="0.45">%</tspan><tspan x="274.8" dy="15" fill="#39ff8f" opacity="0.39">&amp;</tspan><tspan x="274.8" dy="15" fill="#39ff8f" opacity="0.33">E</tspan><tspan x="274.8" dy="15" fill="#39ff8f" opacity="0.28">▒</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:7.63s;animation-delay:-0.71s"><tspan x="315.6" dy="0" fill="#eafff2" opacity="1.00">}</tspan><tspan x="315.6" dy="15" fill="#39ff8f" opacity="0.45">E</tspan><tspan x="315.6" dy="15" fill="#39ff8f" opacity="0.39">L</tspan><tspan x="315.6" dy="15" fill="#39ff8f" opacity="0.33">&gt;</tspan><tspan x="315.6" dy="15" fill="#39ff8f" opacity="0.28">-</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:6.5s;animation-delay:-8.3s"><tspan x="363.9" dy="0" fill="#eafff2" opacity="1.00">[</tspan><tspan x="363.9" dy="15" fill="#39ff8f" opacity="0.45">[</tspan><tspan x="363.9" dy="15" fill="#39ff8f" opacity="0.39">+</tspan><tspan x="363.9" dy="15" fill="#39ff8f" opacity="0.33">T</tspan><tspan x="363.9" dy="15" fill="#39ff8f" opacity="0.28">]</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:6.38s;animation-delay:-1.17s"><tspan x="408.4" dy="0" fill="#eafff2" opacity="1.00">░</tspan><tspan x="408.4" dy="15" fill="#39ff8f" opacity="0.45">{</tspan><tspan x="408.4" dy="15" fill="#39ff8f" opacity="0.39">J</tspan><tspan x="408.4" dy="15" fill="#39ff8f" opacity="0.33">*</tspan><tspan x="408.4" dy="15" fill="#39ff8f" opacity="0.28">&amp;</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:5.95s;animation-delay:-8.86s"><tspan x="455.6" dy="0" fill="#eafff2" opacity="1.00">\</tspan><tspan x="455.6" dy="15" fill="#39ff8f" opacity="0.45">#</tspan><tspan x="455.6" dy="15" fill="#39ff8f" opacity="0.39">}</tspan><tspan x="455.6" dy="15" fill="#39ff8f" opacity="0.33">░</tspan><tspan x="455.6" dy="15" fill="#39ff8f" opacity="0.28">▓</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:4.3s;animation-delay:-6.7s"><tspan x="499.7" dy="0" fill="#eafff2" opacity="1.00">K</tspan><tspan x="499.7" dy="15" fill="#39ff8f" opacity="0.45">P</tspan><tspan x="499.7" dy="15" fill="#39ff8f" opacity="0.39">J</tspan><tspan x="499.7" dy="15" fill="#39ff8f" opacity="0.33">K</tspan><tspan x="499.7" dy="15" fill="#39ff8f" opacity="0.28">▓</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:6.37s;animation-delay:-8.26s"><tspan x="545.5" dy="0" fill="#eafff2" opacity="1.00">I</tspan><tspan x="545.5" dy="15" fill="#39ff8f" opacity="0.45">&gt;</tspan><tspan x="545.5" dy="15" fill="#39ff8f" opacity="0.39">Q</tspan><tspan x="545.5" dy="15" fill="#39ff8f" opacity="0.33">H</tspan><tspan x="545.5" dy="15" fill="#39ff8f" opacity="0.28">X</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:7.39s;animation-delay:-3.5s"><tspan x="592.2" dy="0" fill="#eafff2" opacity="1.00">▒</tspan><tspan x="592.2" dy="15" fill="#39ff8f" opacity="0.45">A</tspan><tspan x="592.2" dy="15" fill="#39ff8f" opacity="0.39">U</tspan><tspan x="592.2" dy="15" fill="#39ff8f" opacity="0.33">D</tspan><tspan x="592.2" dy="15" fill="#39ff8f" opacity="0.28">G</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:7.09s;animation-delay:-2.65s"><tspan x="635.4" dy="0" fill="#eafff2" opacity="1.00">R</tspan><tspan x="635.4" dy="15" fill="#39ff8f" opacity="0.45">H</tspan><tspan x="635.4" dy="15" fill="#39ff8f" opacity="0.39">[</tspan><tspan x="635.4" dy="15" fill="#39ff8f" opacity="0.33">O</tspan><tspan x="635.4" dy="15" fill="#39ff8f" opacity="0.28">1</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:8.47s;animation-delay:-0.97s"><tspan x="683.6" dy="0" fill="#eafff2" opacity="1.00">0</tspan><tspan x="683.6" dy="15" fill="#39ff8f" opacity="0.45">V</tspan><tspan x="683.6" dy="15" fill="#39ff8f" opacity="0.39">B</tspan><tspan x="683.6" dy="15" fill="#39ff8f" opacity="0.33">S</tspan><tspan x="683.6" dy="15" fill="#39ff8f" opacity="0.28">D</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:4.01s;animation-delay:-6.74s"><tspan x="729.7" dy="0" fill="#eafff2" opacity="1.00">K</tspan><tspan x="729.7" dy="15" fill="#39ff8f" opacity="0.45">L</tspan><tspan x="729.7" dy="15" fill="#39ff8f" opacity="0.39">A</tspan><tspan x="729.7" dy="15" fill="#39ff8f" opacity="0.33">]</tspan><tspan x="729.7" dy="15" fill="#39ff8f" opacity="0.28">/</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:5.57s;animation-delay:-6.13s"><tspan x="773.8" dy="0" fill="#eafff2" opacity="1.00">R</tspan><tspan x="773.8" dy="15" fill="#39ff8f" opacity="0.45">B</tspan><tspan x="773.8" dy="15" fill="#39ff8f" opacity="0.39">X</tspan><tspan x="773.8" dy="15" fill="#39ff8f" opacity="0.33">&gt;</tspan><tspan x="773.8" dy="15" fill="#39ff8f" opacity="0.28">A</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:8.28s;animation-delay:-3.23s"><tspan x="820.7" dy="0" fill="#eafff2" opacity="1.00">L</tspan><tspan x="820.7" dy="15" fill="#39ff8f" opacity="0.45">Z</tspan><tspan x="820.7" dy="15" fill="#39ff8f" opacity="0.39">%</tspan><tspan x="820.7" dy="15" fill="#39ff8f" opacity="0.33">Z</tspan><tspan x="820.7" dy="15" fill="#39ff8f" opacity="0.28">P</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:8.37s;animation-delay:-1.28s"><tspan x="863.0" dy="0" fill="#eafff2" opacity="1.00">A</tspan><tspan x="863.0" dy="15" fill="#39ff8f" opacity="0.45">%</tspan><tspan x="863.0" dy="15" fill="#39ff8f" opacity="0.39">]</tspan><tspan x="863.0" dy="15" fill="#39ff8f" opacity="0.33">A</tspan><tspan x="863.0" dy="15" fill="#39ff8f" opacity="0.28">I</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:6.74s;animation-delay:-4.64s"><tspan x="910.5" dy="0" fill="#eafff2" opacity="1.00">&amp;</tspan><tspan x="910.5" dy="15" fill="#39ff8f" opacity="0.45">E</tspan><tspan x="910.5" dy="15" fill="#39ff8f" opacity="0.39">Q</tspan><tspan x="910.5" dy="15" fill="#39ff8f" opacity="0.33">0</tspan><tspan x="910.5" dy="15" fill="#39ff8f" opacity="0.28">%</tspan></text>
+<text class="rainsnd" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" style="animation-duration:4.78s;animation-delay:-3.1s"><tspan x="956.2" dy="0" fill="#eafff2" opacity="1.00">+</tspan><tspan x="956.2" dy="15" fill="#39ff8f" opacity="0.45">U</tspan><tspan x="956.2" dy="15" fill="#39ff8f" opacity="0.39">=</tspan><tspan x="956.2" dy="15" fill="#39ff8f" opacity="0.33">Q</tspan><tspan x="956.2" dy="15" fill="#39ff8f" opacity="0.28">N</tspan></text></g></g>
+  <g style="transform-origin:52px 65px;animation:spinsnd 4s linear infinite">
+      <circle cx="52" cy="65" r="26" fill="#0a0e14" stroke="#1c2530" stroke-width="1.4"/>
+      <circle cx="52" cy="65" r="20" fill="none" stroke="#1c2530" stroke-width="0.8"/>
+      <circle cx="52" cy="65" r="15" fill="none" stroke="#1c2530" stroke-width="0.8"/>
+      <circle cx="52" cy="65" r="8" fill="#22d3ee"/>
+      <circle cx="52" cy="65" r="2.2" fill="#05070a"/>
+    </g>
+  <text x="34" y="40" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#5b6572">SOUNDTRACK</text>
+  <text x="96" y="62" text-anchor="start" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-weight="700" font-size="17" fill="#22d3ee" opacity="0.75" style="animation:dcsndtitle0 20.0s steps(1) 0.0s infinite;">%&lt; B&amp; K%KS #@ AM&lt;J *TX[XQ</text>
+<text x="96" y="62" text-anchor="start" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-weight="700" font-size="17" fill="#22d3ee" opacity="0.75" style="animation:dcsndtitle1 20.0s steps(1) 0.0s infinite;">}% +A {TMS RY QKH} MDEOZB</text>
+<text x="96" y="62" text-anchor="start" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-weight="700" font-size="17" fill="#e6edf3"  style="animation:dcsndtitle2 20.0s steps(1) 0.0s infinite;">We Do What We Want (Edit)</text>
+  <text x="96" y="82" text-anchor="start" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-weight="500" font-size="13" fill="#8b949e">Alan Fitzpatrick</text>
+  <rect x="790" y="60.0" width="7" height="10" rx="2" fill="#22d3ee" opacity="0.85"
+        style="transform-origin:793.5px 65.0px;animation:eqsnd0 0.6s ease-in-out infinite alternate"/><rect x="804" y="55.0" width="7" height="20" rx="2" fill="#22d3ee" opacity="0.85"
+        style="transform-origin:807.5px 65.0px;animation:eqsnd1 0.75s ease-in-out infinite alternate"/><rect x="818" y="58.0" width="7" height="14" rx="2" fill="#22d3ee" opacity="0.85"
+        style="transform-origin:821.5px 65.0px;animation:eqsnd2 0.8999999999999999s ease-in-out infinite alternate"/><rect x="832" y="53.0" width="7" height="24" rx="2" fill="#22d3ee" opacity="0.85"
+        style="transform-origin:835.5px 65.0px;animation:eqsnd3 0.6s ease-in-out infinite alternate"/><rect x="846" y="61.0" width="7" height="8" rx="2" fill="#22d3ee" opacity="0.85"
+        style="transform-origin:849.5px 65.0px;animation:eqsnd4 0.75s ease-in-out infinite alternate"/><rect x="860" y="56.0" width="7" height="18" rx="2" fill="#22d3ee" opacity="0.85"
+        style="transform-origin:863.5px 65.0px;animation:eqsnd5 0.8999999999999999s ease-in-out infinite alternate"/>
+  <text x="966" y="108" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12" letter-spacing="1" fill="#22d3ee">▶ click to play</text>
+</svg>
