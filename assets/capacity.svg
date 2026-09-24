@@ -1,0 +1,137 @@
+<svg width="960" height="300" viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs>
+<pattern id="hexy" width="26" height="30" patternUnits="userSpaceOnUse" patternTransform="scale(0.62)">
+<path d="M13 0 L26 7.5 L26 22.5 L13 30 L0 22.5 L0 7.5 Z" fill="none" stroke="#f1e8d0" stroke-width="1"/>
+</pattern>
+<radialGradient id="vigny" cx="50%" cy="35%" r="75%">
+<stop offset="0%" stop-color="#b8860b" stop-opacity="0.05"/>
+<stop offset="100%" stop-color="#b8860b" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="sweepy" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#b8860b" stop-opacity="0"/>
+<stop offset="50%" stop-color="#b8860b" stop-opacity="0.11"/>
+<stop offset="100%" stop-color="#b8860b" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="corey" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#b8860b" stop-opacity="0.9"/>
+<stop offset="60%" stop-color="#5c4413" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#5c4413" stop-opacity="0"/>
+</radialGradient>
+<filter id="noisey" x="-20%" y="-20%" width="140%" height="140%">
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+<feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 0.08  0 0 0 0 0.08  0.25 0.25 0.25 0 0"/>
+</filter>
+<filter id="blury" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="3.2"/>
+</filter>
+<filter id="softblury" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="1.1"/>
+</filter>
+
+</defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,monospace; }
+.sans { font-family: 'Space Grotesk','Segoe UI',Inter,sans-serif; }
+.ink { fill:#0a0a0a; }
+.muted { fill:#5a4a1f; }
+.dim { fill:#8a7530; }
+.dim2 { fill:#c9b878; }
+.accent { fill:#b8860b; }
+.accent2 { fill:#5c4413; }
+.accent3 { fill:#ffd700; }
+.line { stroke:#e8dfc4; }
+@keyframes blinky { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+.cursory { animation: blinky 1.05s steps(1,end) infinite; }
+@keyframes drifty { 0% { transform:translateY(0) } 100% { transform:translateY(30px) } }
+@keyframes jity { 0%,100% { transform:translate(0,0) } 22% { transform:translate(0.7px,-0.6px) }
+  41% { transform:translate(-0.6px,0.5px) } 63% { transform:translate(0.6px,0.6px) }
+  78% { transform:translate(-0.5px,-0.7px) } 90% { transform:translate(0.4px,0) } }
+.jity { display:inline-block; animation: jity 0.22s steps(1,end) infinite; }
+@keyframes flashy { 0%,93%,100% { opacity:0 } 93.6% { opacity:0.16 } 94% { opacity:0 }
+  94.6% { opacity:0.22 } 95% { opacity:0 } 96.4% { opacity:0.1 } 96.8% { opacity:0 } }
+.flashy { animation: flashy 7s linear infinite; }
+@keyframes grainy { 0%,100% { opacity:0.035 } 30% { opacity:0.07 } 55% { opacity:0.02 } 80% { opacity:0.06 } }
+.grainy { animation: grainy 0.6s steps(2,end) infinite; }
+</style>
+<clipPath id="clipy"><rect x="4" y="4" width="952" height="292" rx="20"/></clipPath>
+<rect x="4" y="4" width="952" height="292" rx="20" fill="#fffdf7" stroke="#e8dfc4" stroke-width="1.2"/>
+<rect x="4" y="4" width="952" height="292" rx="20" fill="url(#hexy)" opacity="0.9"/>
+<rect x="4" y="4" width="952" height="292" rx="20" fill="url(#vigny)"/>
+<g clip-path="url(#clipy)"><rect x="-523.6" y="4" width="523.6" height="292" fill="url(#sweepy)"><animate attributeName="x" from="-523.6" to="960" dur="9s" begin="-3s" repeatCount="indefinite"/></rect></g>
+<g clip-path="url(#clipy)"><rect x="4" y="4" width="952" height="292" filter="url(#noisey)" class="grainy"/></g>
+<g clip-path="url(#clipy)"><rect x="4" y="-2" width="952" height="2" fill="#b8860b" opacity="0.16"><animate attributeName="y" values="2;296" dur="1.9s" begin="0.4s" repeatCount="indefinite"/></rect></g>
+<g clip-path="url(#clipy)"><rect x="4" y="4" width="952" height="292" filter="url(#noisey)" opacity="0"><animate attributeName="opacity" values="0;0;0.5;0.12;0.4;0;0" keyTimes="0;0.63;0.645;0.66;0.672;0.69;1" dur="4.0s" begin="1.5s" repeatCount="indefinite"/></rect></g>
+<g clip-path="url(#clipy)"><rect x="4" y="4" width="952" height="292" fill="#b8860b" class="flashy"/></g>
+<path d="M 13 26 L 13 13 L 26 13" fill="none" stroke="#b8860b" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+<circle cx="13" cy="13" r="1.6" fill="#b8860b"/>
+<path d="M 947 26 L 947 13 L 934 13" fill="none" stroke="#b8860b" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+<circle cx="947" cy="13" r="1.6" fill="#b8860b"/>
+<path d="M 13 274 L 13 287 L 26 287" fill="none" stroke="#b8860b" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+<circle cx="13" cy="287" r="1.6" fill="#b8860b"/>
+<path d="M 947 274 L 947 287 L 934 287" fill="none" stroke="#b8860b" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+<circle cx="947" cy="287" r="1.6" fill="#b8860b"/>
+<rect x="4" y="4" width="952" height="292" rx="20" fill="none" stroke="#b8860b" stroke-width="1" opacity="0.18"/>
+<g clip-path="url(#clipy)" opacity="0.55">
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.77s" begin="2.04s" repeatCount="indefinite"/><text x="33.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">K</text><text x="33.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">C</text><text x="33.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">T</text><text x="33.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">H</text><text x="33.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">8</text><text x="33.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">B</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.14s" begin="2.25s" repeatCount="indefinite"/><text x="93.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">M</text><text x="93.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">2</text><text x="93.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">K</text><text x="93.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">√</text><text x="93.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">∑</text><text x="93.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">Z</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.14s" begin="3.31s" repeatCount="indefinite"/><text x="152.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">5</text><text x="152.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">∞</text><text x="152.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">8</text><text x="152.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">∞</text><text x="152.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">9</text><text x="152.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">X</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.65s" begin="4.78s" repeatCount="indefinite"/><text x="212.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">V</text><text x="212.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">M</text><text x="212.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">E</text><text x="212.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">9</text><text x="212.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">C</text><text x="212.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">π</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="6.34s" begin="1.77s" repeatCount="indefinite"/><text x="271.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">7</text><text x="271.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">√</text><text x="271.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">F</text><text x="271.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">∫</text><text x="271.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">J</text><text x="271.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">W</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="3.46s" begin="1.43s" repeatCount="indefinite"/><text x="331.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">W</text><text x="331.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">I</text><text x="331.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">Ω</text><text x="331.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">C</text><text x="331.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">4</text><text x="331.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">O</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="6.16s" begin="2.28s" repeatCount="indefinite"/><text x="390.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">M</text><text x="390.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">∫</text><text x="390.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">∫</text><text x="390.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">D</text><text x="390.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">U</text><text x="390.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">W</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.65s" begin="0.41s" repeatCount="indefinite"/><text x="450.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">X</text><text x="450.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">√</text><text x="450.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">π</text><text x="450.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">F</text><text x="450.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">R</text><text x="450.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">4</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="6.14s" begin="2.0s" repeatCount="indefinite"/><text x="509.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">Δ</text><text x="509.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">√</text><text x="509.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">J</text><text x="509.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">N</text><text x="509.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">I</text><text x="509.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">J</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="6.09s" begin="0.54s" repeatCount="indefinite"/><text x="569.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">∞</text><text x="569.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">P</text><text x="569.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">A</text><text x="569.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">4</text><text x="569.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">Δ</text><text x="569.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">9</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.66s" begin="3.06s" repeatCount="indefinite"/><text x="628.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">Q</text><text x="628.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">3</text><text x="628.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">8</text><text x="628.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">H</text><text x="628.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">I</text><text x="628.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">B</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="6.01s" begin="3.41s" repeatCount="indefinite"/><text x="688.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">H</text><text x="688.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">A</text><text x="688.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">5</text><text x="688.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">Y</text><text x="688.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">∑</text><text x="688.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">Z</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="3.47s" begin="2.97s" repeatCount="indefinite"/><text x="747.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">5</text><text x="747.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">4</text><text x="747.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">N</text><text x="747.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">6</text><text x="747.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">3</text><text x="747.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">H</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="6.8s" begin="0.84s" repeatCount="indefinite"/><text x="807.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">J</text><text x="807.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">S</text><text x="807.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">P</text><text x="807.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">M</text><text x="807.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">8</text><text x="807.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">C</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="5.0s" begin="4.83s" repeatCount="indefinite"/><text x="866.8" y="-20" font-size="12" fill="#ffd700" opacity="1.0">6</text><text x="866.8" y="-4" font-size="12" fill="#b8860b" opacity="0.84">E</text><text x="866.8" y="12" font-size="12" fill="#b8860b" opacity="0.68">∞</text><text x="866.8" y="28" font-size="12" fill="#b8860b" opacity="0.52">D</text><text x="866.8" y="44" font-size="12" fill="#b8860b" opacity="0.36">G</text><text x="866.8" y="60" font-size="12" fill="#b8860b" opacity="0.2">7</text></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,-320; 0,320" dur="4.17s" begin="3.28s" repeatCount="indefinite"/><text x="926.2" y="-20" font-size="12" fill="#ffd700" opacity="1.0">U</text><text x="926.2" y="-4" font-size="12" fill="#b8860b" opacity="0.84">Z</text><text x="926.2" y="12" font-size="12" fill="#b8860b" opacity="0.68">6</text><text x="926.2" y="28" font-size="12" fill="#b8860b" opacity="0.52">7</text><text x="926.2" y="44" font-size="12" fill="#b8860b" opacity="0.36">7</text><text x="926.2" y="60" font-size="12" fill="#b8860b" opacity="0.2">√</text></g>
+</g>
+<rect x="4" y="4" width="952" height="292" rx="20" fill="#fffdf7" opacity="0.62"/>
+<g font-weight="800"><g font-size="19">
+<text x="40.0" y="44" class="accent">A<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.78;0.792;0.8;1" dur="8s" begin="0.200s" repeatCount="indefinite"/></text>
+<text x="40.0" y="44" class="ink sans">F<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.78;0.792;0.8;1" dur="8s" begin="0.200s" repeatCount="indefinite"/></text>
+<text x="51.6" y="44" class="accent">4<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.8;0.812;0.8200000000000001;1" dur="8s" begin="0.228s" repeatCount="indefinite"/></text>
+<text x="51.6" y="44" class="ink sans">U<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.8;0.812;0.8200000000000001;1" dur="8s" begin="0.228s" repeatCount="indefinite"/></text>
+<text x="63.2" y="44" class="accent">%<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.82;0.832;0.84;1" dur="8s" begin="0.256s" repeatCount="indefinite"/></text>
+<text x="63.2" y="44" class="ink sans">L<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.82;0.832;0.84;1" dur="8s" begin="0.256s" repeatCount="indefinite"/></text>
+<text x="74.8" y="44" class="accent">B<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.84;0.852;0.86;1" dur="8s" begin="0.284s" repeatCount="indefinite"/></text>
+<text x="74.8" y="44" class="ink sans">L<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.84;0.852;0.86;1" dur="8s" begin="0.284s" repeatCount="indefinite"/></text>
+<text x="98.0" y="44" class="accent">5<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.78;0.792;0.8;1" dur="8s" begin="0.340s" repeatCount="indefinite"/></text>
+<text x="98.0" y="44" class="ink sans">C<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.78;0.792;0.8;1" dur="8s" begin="0.340s" repeatCount="indefinite"/></text>
+<text x="109.5" y="44" class="accent">@<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.8;0.812;0.8200000000000001;1" dur="8s" begin="0.368s" repeatCount="indefinite"/></text>
+<text x="109.5" y="44" class="ink sans">A<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.8;0.812;0.8200000000000001;1" dur="8s" begin="0.368s" repeatCount="indefinite"/></text>
+<text x="121.1" y="44" class="accent">□<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.82;0.832;0.84;1" dur="8s" begin="0.396s" repeatCount="indefinite"/></text>
+<text x="121.1" y="44" class="ink sans">P<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.82;0.832;0.84;1" dur="8s" begin="0.396s" repeatCount="indefinite"/></text>
+<text x="132.7" y="44" class="accent">7<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.84;0.852;0.86;1" dur="8s" begin="0.424s" repeatCount="indefinite"/></text>
+<text x="132.7" y="44" class="ink sans">A<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.84;0.852;0.86;1" dur="8s" begin="0.424s" repeatCount="indefinite"/></text>
+<text x="144.3" y="44" class="accent">7<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.86;0.872;0.88;1" dur="8s" begin="0.452s" repeatCount="indefinite"/></text>
+<text x="144.3" y="44" class="ink sans">C<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.86;0.872;0.88;1" dur="8s" begin="0.452s" repeatCount="indefinite"/></text>
+<text x="155.9" y="44" class="accent">F<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.78;0.792;0.8;1" dur="8s" begin="0.480s" repeatCount="indefinite"/></text>
+<text x="155.9" y="44" class="ink sans">I<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.78;0.792;0.8;1" dur="8s" begin="0.480s" repeatCount="indefinite"/></text>
+<text x="167.5" y="44" class="accent">F<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.8;0.812;0.8200000000000001;1" dur="8s" begin="0.508s" repeatCount="indefinite"/></text>
+<text x="167.5" y="44" class="ink sans">T<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.8;0.812;0.8200000000000001;1" dur="8s" begin="0.508s" repeatCount="indefinite"/></text>
+<text x="179.1" y="44" class="accent">A<animate attributeName="opacity" values="0;1;1;0;0;1;0;0" keyTimes="0;0.001;0.07;0.075;0.82;0.832;0.84;1" dur="8s" begin="0.536s" repeatCount="indefinite"/></text>
+<text x="179.1" y="44" class="ink sans">Y<animate attributeName="opacity" values="0;0;0;1;1;0;1;1" keyTimes="0;0.001;0.07;0.075;0.82;0.832;0.84;1" dur="8s" begin="0.536s" repeatCount="indefinite"/></text>
+</g></g>
+<text x="40" y="63" font-size="11" class="dim">every pattern, all at once — the margins keep talking<tspan class="cursory">_</tspan></text>
+<g><animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="1.8s" repeatCount="indefinite"/><circle cx="92" cy="145" r="26" fill="url(#corey)" opacity="0.5"><animate attributeName="opacity" values="0.35;0.6;0.35" dur="1.8s" repeatCount="indefinite"/></circle><g transform="rotate(-32 92 145)"><path d="M 74 145 a18 18 0 0 1 18 -18 h6 v36 h-6 a18 18 0 0 1 -18 -18 Z" fill="#5c4413"/><path d="M 110 145 a18 18 0 0 1 -18 18 h-6 v-36 h6 a18 18 0 0 1 18 18 Z" fill="#ffd700"/><rect x="91" y="127" width="2" height="36" fill="#000000" opacity="0.5"/></g></g>
+<text x="200" y="165" font-size="10.5" class="dim" letter-spacing="0.5">COGNITIVE CAPACITY</text>
+<rect x="200" y="175" width="720" height="10" rx="5" fill="#f8f5ee" stroke="#e8dfc4" stroke-width="1"/>
+<rect x="200" y="175" width="0" height="10" rx="5" fill="#b8860b"><animate attributeName="width" values="0;720;720;0;0" keyTimes="0;0.55;0.62;0.7;1" dur="7s" repeatCount="indefinite"/></rect>
+<circle cx="272.0" cy="180.0" r="2.4" fill="#ffd700" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.04;0.06;0.55;0.62;0.7;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="272.0" y="199" text-anchor="middle" font-size="9" class="dim2">10%</text>
+<circle cx="444.8" cy="180.0" r="2.4" fill="#ffd700" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.17;0.19;0.55;0.62;0.7;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="444.8" y="199" text-anchor="middle" font-size="9" class="dim2">34%</text>
+<circle cx="639.2" cy="180.0" r="2.4" fill="#ffd700" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.32;0.34;0.55;0.62;0.7;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="639.2" y="199" text-anchor="middle" font-size="9" class="dim2">61%</text>
+<circle cx="840.8" cy="180.0" r="2.4" fill="#ffd700" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.47;0.49;0.55;0.62;0.7;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="840.8" y="199" text-anchor="middle" font-size="9" class="dim2">89%</text>
+<circle cx="920.0" cy="180.0" r="2.4" fill="#ffd700" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.53;0.55;0.55;0.62;0.7;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="920.0" y="199" text-anchor="middle" font-size="9" class="dim2">100%</text>
+<text x="800" y="100" font-size="10.5" class="accent3" opacity="0">FOCUS<animate attributeName="opacity" values="0;0;0.6;0;0" keyTimes="0;0.035;0.06;0.075;1" dur="16s" begin="2s" repeatCount="indefinite"/></text>
+<text x="770" y="210" font-size="10.5" class="accent3" opacity="0">PATTERNS<animate attributeName="opacity" values="0;0;0.6;0;0" keyTimes="0;0.035;0.06;0.075;1" dur="16s" begin="7s" repeatCount="indefinite"/></text>
+<text x="60" y="240" font-size="10.5" class="accent3" opacity="0">CLARITY<animate attributeName="opacity" values="0;0;0.6;0;0" keyTimes="0;0.035;0.06;0.075;1" dur="16s" begin="12s" repeatCount="indefinite"/></text>
+</svg>
