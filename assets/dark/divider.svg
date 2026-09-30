@@ -1,0 +1,19 @@
+<svg width="1000" height="34" viewBox="0 0 1000 34" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="divider">
+<title>divider</title>
+<style>
+
+@keyframes sldv{from{transform:translateX(-380px)}to{transform:translateX(380px)}}.sldv{animation:sldv 7s ease-in-out infinite alternate}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="sgdv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F5E6C4" stop-opacity="0"/><stop offset="0.5" stop-color="#F5E6C4" stop-opacity="1"/><stop offset="1" stop-color="#F5E6C4" stop-opacity="0"/></linearGradient>
+<linearGradient id="fladv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D9BF8C" stop-opacity="0.75"/><stop offset="1" stop-color="#D9BF8C" stop-opacity="0"/></linearGradient>
+<linearGradient id="flbdv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D9BF8C" stop-opacity="0.75"/><stop offset="1" stop-color="#D9BF8C" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="60" y="16.5" width="410.0" height="1" fill="url(#fladv)"/>
+<g transform="translate(1000 0) scale(-1 1)"><rect x="60" y="16.5" width="410.0" height="1" fill="url(#flbdv)"/></g>
+<path d="M500.0 12 L505.0 17 L500.0 22 L495.0 17 Z" fill="#D9BF8C" opacity="1"/>
+<path d="M483.0 14.8 L485.2 17 L483.0 19.2 L480.8 17 Z" fill="#D9BF8C" opacity="0.6"/>
+<path d="M517.0 14.8 L519.2 17 L517.0 19.2 L514.8 17 Z" fill="#D9BF8C" opacity="0.6"/>
+<rect class="sldv" x="410.0" y="16" width="180" height="2" fill="url(#sgdv)"/>
+</svg>
